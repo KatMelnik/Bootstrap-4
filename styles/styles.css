@@ -258,53 +258,53 @@ a{
 }
 .img-article{
 	width: 210px;
-    height: 140px;
-    position: relative;
-    overflow: hidden;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    	height: 140px;
+    	position: relative;
+    	overflow: hidden;
+    	background-repeat: no-repeat;
+    	background-size: cover;
+    	background-position: center;
 }
 .fin-articles .first-column{
 	margin-right:30px;
 }
 .fin-articles .col-lg-6:nth-child(1) .article:nth-child(1) .img-article{
-	background-image: url("../images/bl2_1.jpg");
+	background-image: url("images/bl2_1.jpg");
 }
 .fin-articles .col-lg-6:nth-child(1) .article:nth-child(2) .img-article{
-	background-image: url("../images/bl2_2.jpeg");
+	background-image: url("images/bl2_2.jpeg");
 }
 .fin-articles .col-lg-6:nth-child(1) .article:nth-child(3) .img-article, .fin-articles .col-lg-6:nth-child(1) .article:nth-child(4) .img-article, .fin-articles .col-lg-6:nth-child(1) .article:nth-child(5) .img-article, .fin-articles .col-lg-6:nth-child(1) .article:nth-child(6) .img-article {
-	background-image: url("../images/bl2_1.jpg");
+	background-image: url("images/bl2_1.jpg");
 }
 .fin-articles .col-lg-6:nth-child(2) .article:nth-child(1) .img-article{
-	background-image: url("../images/bl2_21.jpg");
+	background-image: url("images/bl2_21.jpg");
 }
 .fin-articles .col-lg-6:nth-child(2) .article:nth-child(2) .img-article{
-	background-image: url("../images/bl2_22.jpeg");
+	background-image: url("images/bl2_22.jpeg");
 }
 .fin-articles .col-lg-6:nth-child(2) .article:nth-child(3) .img-article, .fin-articles .col-lg-6:nth-child(2) .article:nth-child(4) .img-article, .fin-articles .col-lg-6:nth-child(2) .article:nth-child(5) .img-article, .fin-articles .col-lg-6:nth-child(2) .article:nth-child(6) .img-article {
-	background-image: url("../images/bl2_1.jpg");
+	background-image: url("images/bl2_1.jpg");
 }
 
 .main-news-title{
 	font-size: 20px;
-    line-height: 24px;
-    max-height: none;
-    font-family: "PT Sans",sans-serif;
-    font-weight: 700;
+    	line-height: 24px;
+    	max-height: none;
+    	font-family: "PT Sans",sans-serif;
+    	font-weight: 700;
 }
 .news-title{
 	font-size: 16px;
-    line-height: 20px;
-    max-height: 40px;
-    overflow: hidden;
-    font-family: "PT Sans",sans-serif;
-    font-weight: 700;
+    	line-height: 20px;
+    	max-height: 40px;
+    	overflow: hidden;
+    	font-family: "PT Sans",sans-serif;
+	font-weight: 700;
 }
 .block-news-and-articles .row {
 	margin-right: 0;
-    margin-left: 0;
+    	margin-left: 0;
 }
 .fin-articles .col {
 	padding-right: 0;
@@ -318,24 +318,24 @@ a{
 }
 .title-aticle{
 	margin: 0 0 10px 0;
-    padding: 20px 0 0 0;
+    	padding: 20px 0 0 0;
 }
 .title-aticle a{
 	font-size: 18px;
 	font-weight: bold;
-    line-height: 20px;
-    color: #303030;
+    	line-height: 20px;
+    	color: #303030;
 }
 .title-aticle a:hover{
 	color: #5a7dab;
-    text-decoration: none;
+    	text-decoration: none;
 }
 .date-create-article{
 	color: #aaa;
-    font-size: 10px;
-    text-transform: uppercase;
-    height: 12px;
-    margin: 0 0 10px 0;
+    	font-size: 10px;
+    	text-transform: uppercase;
+    	height: 12px;
+    	margin: 0 0 10px 0;
 }
 .story-article{
 	font-size: 14px;
@@ -347,50 +347,50 @@ a:hover{
 }
 a .new{
 	padding: 10px 0 10px 50px;
-    position: relative;
-    border-bottom: 1px solid #e1e1e1;
-    text-decoration: none;
-    position: relative;
-    transition: 0.2s all;
+    	position: relative;
+    	border-bottom: 1px solid #e1e1e1;
+    	text-decoration: none;
+   	position: relative;
+    	transition: 0.2s all;
 }
 a .new:after{
 	position: absolute;
-    bottom: -1px;
-    left: 0;
-    width: 0;
-    height: 1px;
-    background-color: #5a7dab;
-    content: "";
-    display: block;
-    -webkit-transition: 0.4s all;
-    -moz-transition: 0.4s all;
-    transition: 0.4s all;
+    	bottom: -1px;
+    	left: 0;
+    	width: 0;
+    	height: 1px;
+    	background-color: #5a7dab;
+    	content: "";
+    	display: block;
+    	-webkit-transition: 0.4s all;
+    	-moz-transition: 0.4s all;
+    	transition: 0.4s all;
 }
 a .new:hover:after {
-    width: 100%;
+    	width: 100%;
 }
 a .new{
 	color:#000;
 }
 .last-news .time-last-new{
 	margin: 0 0 0 -50px;
-    font-size: 16px;
-    color: #5a7dab;
+    	font-size: 16px;
+    	color: #5a7dab;
 }
 .last-news .title-last-new{
 	color: #303030;
-    font-size: 15px;
-    line-height: 16px;
-    text-decoration: none;
-    margin-left: 20px;
+    	font-size: 15px;
+    	line-height: 16px;
+    	text-decoration: none;
+    	margin-left: 20px;
 }
 a .new:hover .title-last-new{
  	color: #5a7dab;
 	text-decoration: none;
 }
 .flex-fixed-width-item {
-    flex: 0 0 300px;
-    padding: 0;
+    	flex: 0 0 300px;
+    	padding: 0;
 }
 .addsense{
 	width: 300px;
@@ -405,70 +405,70 @@ a .new:hover .title-last-new{
 }
 
 .article:hover .post-img:before {
-    background-color: rgba(0,0,0,0.2);
+    	background-color: rgba(0,0,0,0.2);
 }
 
 .sidebar-block-nomobil .news-stories-top-content .news-stories-img{
 	width: 100%;
-    height: 150px;
-    margin-bottom: 10px;
+    	height: 150px;
+    	margin-bottom: 10px;
 }
 .news-content .left{
 	margin-right: 15px;
 }
 .sidebar-block-nomobil .news-stories-top-content{
 	width: 100% !important;
-    height: auto;
-    margin: 0 0 20px 0;
+    	height: auto;
+    	margin: 0 0 20px 0;
 }
 .sidebar-block-nomobil .news-stories-top-content .news-stories-img{
-	background-image: url("../images/img1_right.jpg");
+	background-image: url("images/img1_right.jpg");
 	position: relative;
-    overflow: hidden;
-    width: 100%;
-    height: 150px;
-    margin-bottom: 10px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    	overflow: hidden;
+    	width: 100%;
+    	height: 150px;
+    	margin-bottom: 10px;
+   	background-repeat: no-repeat;
+    	background-size: cover;
+    	background-position: center;
 }
 .sidebar-block-nomobil .title-top-content{
 	overflow: hidden;
 }
 .sidebar-block-nomobil .title-top-content a{
 	font-size: 16px;
-    line-height: 20px;
-    color: #303030;
+    	line-height: 20px;
+    	color: #303030;
 }
 .sidebar-block-nomobil .title-top-content a:hover{
-    color: #5a7dab;
-    text-decoration: none;
+    	color: #5a7dab;
+    	text-decoration: none;
 }
 
 .news-stories-img .post-img:before {
 	content: "";
-    display: block;
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-color: rgba(0,0,0,0);
-    -webkit-transition: all 0.1s ease;
-    -moz-transition: all 0.1s ease;
-    transition: ease 0.2s all;
-    z-index: 2;
+    	display: block;
+    	height: 100%;
+    	width: 100%;
+    	position: absolute;
+    	top: 0;
+    	left: 0;
+    	background-color: rgba(0,0,0,0);
+    	-webkit-transition: all 0.1s ease;
+    	-moz-transition: all 0.1s ease;
+    	transition: ease 0.2s all;
+    	z-index: 2;
 }
 .news-stories-img .post-img:hover:before {
-    background-color: rgba(0,0,0,0.2);
+    	background-color: rgba(0,0,0,0.2);
 }
 .news-stories-top-content:hover .post-img:before {
-    background-color: rgba(0,0,0,0.2);
+    	background-color: rgba(0,0,0,0.2);
 }
 
 .stories-counts {
-    height: 30px;
-    overflow: hidden;
+    	height: 30px;
+    	overflow: hidden;
     position: absolute;
     bottom: -30px;
     left: 0;
@@ -665,19 +665,19 @@ a .new:hover .title-last-new{
     background-position: center;
 }
 .all-news .short-story:nth-child(1) .short-post{
-    background-image: url("../images/allnews_img1.jpg");
+    background-image: url("images/allnews_img1.jpg");
 }
 .all-news .short-story:nth-child(2) .short-post{
-    background-image: url("../images/allnews_img2.jpg");
+    background-image: url("images/allnews_img2.jpg");
 }
 .all-news .short-story:nth-child(3) .short-post{
-    background-image: url("../images/allnews_img3.jpg");
+    background-image: url("images/allnews_img3.jpg");
 }
 .all-news .short-story:nth-child(4) .short-post{
-    background-image: url("../images/allnews_img4.jpg");
+    background-image: url("images/allnews_img4.jpg");
 }
 .all-news .short-story:nth-child(5) .short-post{
-    background-image: url("../images/allnews_img5.jpg");
+    background-image: url("images/allnews_img5.jpg");
 }
 
 .adsense {
@@ -717,7 +717,7 @@ a .new:hover .title-last-new{
 .breadcrumbs-link::after {
     display: inline-block;
     content: ' ';
-    background: no-repeat center / contain url(../images/arrow-right.svg);
+    background: no-repeat center / contain url(images/arrow-right.svg);
     height: 10px;
     width: 10px;
     margin: 0 5px;
@@ -728,7 +728,7 @@ a .new:hover .title-last-new{
     top: -4px;
     left: -13px;
     content: ' ';
-    background: center / contain no-repeat url(../images/home-grey.svg);
+    background: center / contain no-repeat url(images/home-grey.svg);
     height: 14px;
     width: 15px;
 }
@@ -806,7 +806,7 @@ a .new:hover .title-last-new{
     content: "";
     width: 26px;
     height: 18px;
-    background: center / contain no-repeat url(../images/hico.svg);
+    background: center / contain no-repeat url(images/hico.svg);
 }
 .paragraph{
     font-size: 14px;
@@ -1051,7 +1051,7 @@ cursor: pointer;
     text-align: center;
 }
 .kredit-karta .kredit-card__img .card-img {
- /*   background:url(../images/karta_privatbank.png);
+ /*   background:url(images/karta_privatbank.png);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;*/
@@ -1078,16 +1078,16 @@ cursor: pointer;
     position: relative;
 }
 .device-list .android{
-     background-image: url(../images/android.svg);
+     background-image: url(images/android.svg);
 }
 .device-list .apple{
-     background-image: url(../images/apple.svg);
+     background-image: url(images/apple.svg);
 }
 .device-list .chip{
-     background-image: url(../images/chip.svg);
+     background-image: url(images/chip.svg);
 }
 .device-list .mastercard{
-     background-image: url(../images/mastercard.svg);
+     background-image: url(images/mastercard.svg);
 }
 .kredit-card__item:nth-child(1){
     padding-left: 0;
@@ -1308,16 +1308,16 @@ textarea {
     height: 76px;
 }
 /*.right-sidebar .bank-product:nth-child(1) .logo-bank-sidebar{
-    background-image: url("../images/pumb.png");
+    background-image: url("images/pumb.png");
 }
 .right-sidebar .bank-product:nth-child(2) .logo-bank-sidebar{
-    background-image: url("../images/otp_logo.png");
+    background-image: url("images/otp_logo.png");
 }
 .right-sidebar .bank-product:nth-child(3) .logo-bank-sidebar{
-    background-image: url("../images/raif_logo.png");
+    background-image: url("images/raif_logo.png");
 }
 .right-sidebar .bank-product:nth-child(4) .logo-bank-sidebar{
-    background-image: url("../images/alfa_logo.png");
+    background-image: url("images/alfa_logo.png");
 }*/
 
 .page-mfo .page-title{
@@ -1380,19 +1380,19 @@ textarea {
 }
 
 /*.catalog-mfo__product-list .catalog-mfo__product:nth-child(1) .mfo-img{
-     background-image: url("../images/dinero_mfo.png");
+     background-image: url("images/dinero_mfo.png");
 }
 .catalog-mfo__product-list .catalog-mfo__product:nth-child(2) .mfo-img{
-     background-image: url("../images/miloan_mfo.png");
+     background-image: url("images/miloan_mfo.png");
 }
 .catalog-mfo__product-list .catalog-mfo__product:nth-child(3) .mfo-img{
-     background-image: url("../images/pozika_mfo.png");
+     background-image: url("images/pozika_mfo.png");
 }
 .catalog-mfo__product-list .catalog-mfo__product:nth-child(4) .mfo-img{
-     background-image: url("../images/slon_mfo.png");
+     background-image: url("images/slon_mfo.png");
 }
 .catalog-mfo__product-list .catalog-mfo__product:nth-child(5) .mfo-img{
-     background-image: url("../images/groshi_mfo.png");
+     background-image: url("images/groshi_mfo.png");
 }*/
 
 .page-mfo .catalog-mfo__product .catalog-mfo__item .num{
@@ -2392,16 +2392,16 @@ footer {
     height: 20px;
 }
 .page-all-kredit-cards .device-list .chip{
-     background-image: url(../images/chipcards.svg);
+     background-image: url(images/chipcards.svg);
 }
 .page-all-kredit-cards .device-list .paypass{
-     background-image: url(../images/paypass.svg);
+     background-image: url(images/paypass.svg);
 }
 .page-all-kredit-cards .device-list .visa{
-     background-image: url(../images/visacards.svg);
+     background-image: url(images/visacards.svg);
 }
 .page-all-kredit-cards .device-list .mastercard{
-     background-image: url(../images/mastercards.svg);
+     background-image: url(images/mastercards.svg);
 }
 .page-all-kredit-cards .another-card a{
     text-decoration: none;
